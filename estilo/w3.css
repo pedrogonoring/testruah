@@ -58,10 +58,10 @@ opacity: .8;
 }
 
 #subirTopo:hover {
-opacity:1;
+opacity:10;
 }
 .title-page-post{
-	font-size: 55px;
+	font-size: 65px;
 	font-family: sans-serif;
 	font-weight: bold;
 	color: #303030;
