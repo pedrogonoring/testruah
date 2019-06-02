@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Ruah: Loja</title>
+	<link href="estilo/w3.css" rel="stylesheet" type="text/css">
+		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+		<script type="text/javascript">
+		jQuery(document).ready(function(){
+
+		jQuery("#subirTopo").hide();
+
+		jQuery('a#subirTopo').click(function () {
+		         jQuery('body,html').animate({
+		           scrollTop: 0
+		         }, 800);
+		        return false;
+		   });
+
+		jQuery(window).scroll(function () {
+		         if (jQuery(this).scrollTop() > 1000) {
+		            jQuery('#subirTopo').fadeIn();
+		         } else {
+		            jQuery('#subirTopo').fadeOut();
+		         }
+		     });
+		});
+		</script>
+
+</head>
+	<body>
+		<!-- DIV MOTHER CENTER -->
+    <div class="menu" align="center">
+
+	<!-- IMAGEM CABEÇALHO -->	
+    <div><img src="head_loja.png" alt="Lights" style="width:100%"></div>
+    <!-- ESPAÇO -->
+    <div style="margin: 50px"></div>
+
+	</div>
+
+
+	</body>
+</html>

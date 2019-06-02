@@ -1,15 +1,13 @@
-@media only screen and (max-device-width: 900px) {
-/* .menu { width:100%; } */
-}
+
 .button {
   background-color: #303030; /* Green */
-  border-radius: 20px;
+  border-radius: 35px;
   color: white;
-  padding: 25px 50px;
+  padding: 30px 50px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 30px;
+  font-size: 37px;
   margin: 4px 30px;
   -webkit-transition-duration: 0.4s; /* Safari */
   transition-duration: 0.4s;
@@ -24,6 +22,7 @@ a{
     color: white;
     cursor: pointer;
     text-decoration: none;
+
 }
 h2{
 	font-size: 100px;
@@ -38,7 +37,7 @@ p{
 }
 .txt-cards{
 	font-size: 45px;
-	color: #6b6b6b;
+	color: #a0a0a0;
 }
 #subirTopo {
 text-decoration: none;
@@ -100,4 +99,7 @@ opacity:50;
   .button5:hover {
   background-color: White; 
   color: Black;
+}
+.compartilar{
+	font-size: 40px;
 }
