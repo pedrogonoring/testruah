@@ -32,12 +32,13 @@ p{
 	color: #303030;
 }
 .title-cards{
-	font-size: 40px;
+	font-size: 50px;
 	font-family: sans-serif;
 	font-weight: bold;
 }
 .txt-cards{
-	font-size: 30px;
+	font-size: 45px;
+	color: #6b6b6b;
 }
 #subirTopo {
 text-decoration: none;
@@ -48,7 +49,7 @@ color: #fff;
 text-align: center;
 cursor: pointer;
 padding: 20px;
-font-size: 20px;
+font-size: 33px;
 font-weight: bold;
 text-transform: uppercase;
 position: fixed;
@@ -58,7 +59,7 @@ opacity: .8;
 }
 
 #subirTopo:hover {
-opacity:10;
+opacity:50;
 }
 .title-page-post{
 	font-size: 65px;
@@ -82,3 +83,21 @@ opacity:10;
   .compartilhar-whatsapp {
     display: none;
   }
+  .button-lermais{
+  	padding: 20px 30px; 
+  	font-size: 30px;
+  	background-color: #303030; /* Green */
+ 	border-radius: 20px;
+  	color: white;
+  	text-align: center;
+  	text-decoration: none;
+  	display: inline-block;
+  	margin: 4px 30px;
+  	-webkit-transition-duration: 0.4s; /* Safari */
+  	transition-duration: 0.4s;
+  	cursor: pointer;
+  }
+  .button5:hover {
+  background-color: White; 
+  color: Black;
+}
