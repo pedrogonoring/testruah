@@ -1,13 +1,13 @@
 
 .button {
   background-color: #303030; /* Green */
-  border-radius: 35px;
+  border-radius: 70px;
   color: white;
-  padding: 30px 50px;
+  padding: 35px 350px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 37px;
+  font-size: 45px;
   margin: 4px 30px;
   -webkit-transition-duration: 0.4s; /* Safari */
   transition-duration: 0.4s;
@@ -31,13 +31,13 @@ p{
 	color: #303030;
 }
 .title-cards{
-	font-size: 50px;
+	font-size: 60px;
 	font-family: sans-serif;
 	font-weight: bold;
 }
 .txt-cards{
-	font-size: 45px;
-	color: #a0a0a0;
+	font-size: 50px;
+	color: #3a3a3a;
 }
 #subirTopo {
 text-decoration: none;
@@ -47,7 +47,7 @@ right: 30px;
 color: #fff;
 text-align: center;
 cursor: pointer;
-padding: 20px;
+padding: 30px;
 font-size: 33px;
 font-weight: bold;
 text-transform: uppercase;
@@ -68,13 +68,13 @@ opacity:50;
 	line-height: 1.3;
 }
 .infos-date-post{
-	font-size: 35px;
+	font-size: 40px;
 	font-family: sans-serif;
 	color: #303030;
 	line-height: 0px;
 }
 .paragrafo-post{
-	font-size: 45px;
+	font-size: 55px;
 	font-family: century-gothic;
 	color: #303030;
 }
@@ -83,10 +83,10 @@ opacity:50;
     display: none;
   }
   .button-lermais{
-  	padding: 20px 30px; 
-  	font-size: 30px;
+  	padding: 35px 45px; 
+  	font-size: 40px;
   	background-color: #303030; /* Green */
- 	border-radius: 20px;
+ 	border-radius: 50px;
   	color: white;
   	text-align: center;
   	text-decoration: none;
