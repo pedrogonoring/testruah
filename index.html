@@ -2,119 +2,210 @@
 <html>
 	<head>
 		<meta charset="utf-8">
+		
 		<title>Blog Ruah</title>
 		<!-- <meta name="viewport" content="width=device-width, initial-scale=1.0">   RESPONSIVE-->
-		<link href="estilo/w3.css" rel="stylesheet" type="text/css">
+		
 		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+		
+
+		<!-- ICONES -->
 		<link rel="shortcut icon" href="favicon.ico"/>
-				<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+		<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 		<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 		<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
 		<link rel="manifest" href="/site.webmanifest">
 		<meta name="msapplication-TileColor" content="#da532c">
 		<meta name="theme-color" content="#ffffff">
 				
-		
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
-		<script type="text/javascript">
-		jQuery(document).ready(function(){
 
-		jQuery("#subirTopo").hide();
+		<!-- SUBIR -->
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+			<script type="text/javascript">
+			jQuery(document).ready(function(){
 
-		jQuery('a#subirTopo').click(function () {
-		         jQuery('body,html').animate({
-		           scrollTop: 0
-		         }, 800);
-		        return false;
-		   });
+			jQuery("#subirTopo").hide();
 
-		jQuery(window).scroll(function () {
-		         if (jQuery(this).scrollTop() > 1000) {
-		            jQuery('#subirTopo').fadeIn();
-		         } else {
-		            jQuery('#subirTopo').fadeOut();
-		         }
-		     });
-		});
-		</script>
+			jQuery('a#subirTopo').click(function () {
+			         jQuery('body,html').animate({
+			           scrollTop: 0
+			         }, 800);
+			        return false;
+			   });
+
+			jQuery(window).scroll(function () {
+			         if (jQuery(this).scrollTop() > 1000) {
+			            jQuery('#subirTopo').fadeIn();
+			         } else {
+			            jQuery('#subirTopo').fadeOut();
+			         }
+			     });
+			});
+			</script>
+
+
+
+		<link href="estilo/w3.css" rel="stylesheet" type="text/css">
+
+		<link href="resp/w3.css" rel="stylesheet" type="text/css">
+
+
+
 
 	</head>
 	<body>
-    <!-- DIV MOTHER CENTER -->
-    <div  align="center">
+	    <!-- DIV MOTHER CENTER -->
+	    <div  align="center">
 
-    <!-- IMAGEM CABEÇALHO -->	
-    <div><img href="posts.html" src="adoracao.png" alt="Lights" style="width:100%"></div>
-    <!-- ESPAÇO -->
-    <div style="margin: 50px"></div>
-    
-    <!-- BUTTONS -->
-    <div align="center">
-  	<button class="button button5" style="padding: 35px 243px"><a href="#">QUEM SOMOS</a></button>
-  	<button class="button button5" style="padding: 35px 330px"><a href="postscenter.html" >POSTS</a></button>
-  	<button class="button button5" style="padding: 35px 305px"><a href="agenda.html">AGENDA</a></button>
-  	</div>
+	    <!-- IMAGEM CABEÇALHO -->	
+	    <img href="posts.html" src="adoracao.png" alt="Lights" class="head">
+	    
 
-  	<!-- TITULO BLOG -->
-    <div style="margin:100px"></div>
-    <img src="oquee.png" alt="o que significa Ruah" style="width:100%">	
-    <div style="margin:70px"></div>
-    <div><img src="destaqueblog.png" alt="destaques do blog" style="width:75%"></div>
-    
-    <div style="margin:45px"></div>
+	    <!-- ESPAÇO -->
+	    <div style="margin: 120px"></div>
 
-    	<!-- CARDS BLOGS -->
-    	<!-- CARDS #1 -->
-	    <div class="w3-container">
-	    <p class="title-cards">SER JOVEM. SER IGREJA.</p>	
-	  	<div class="w3-card-4" style="width: 90%" class="menu">
-	    <img src="post_02.jpg" alt="Juventude" style="width:100%">
-	    <div style="width:90%" class="w3-container w3-center" class="menu">
-	      <p class="txt-cards" align="justify">É importante partilhar que ser Igreja não anula o nosso ser jovem. A juventude da Igreja também sonha, canta, trabalha, erra, namora, chora, ...</p>
-	      <button class="button-lermais" class="button button5"><a href="posts.html">LER MAIS</a></button>
-	      <div style="margin:60px"></div>
+
+	    
+	    <!-- BUTTONS -->
+	    <div align="center">
+	  	<button class="button button5" style="padding: 35px 243px"><a href="#">QUEM SOMOS</a></button>
+	  	<button class="button button5" style="padding: 35px 330px"><a href="postscenter.html" >POSTS</a></button>
+	  	<button class="button button5" style="padding: 35px 305px"><a href="agenda.html">AGENDA</a></button>
+	  	</div>
+
+
+
+	  	<!-- ESPAÇO -->
+	  	<div style="margin:120px"></div>
+
+
+
+	  	<!-- STORY -->
+	  	<div class="stories">Stories</div>
+	  	<div> 
+	  		<a href="estories.html"><img src="story.png" style="width: 315px"></a>
+	  		<a href="estories.html"><img src="story.png" style="width: 315px; margin-left: 30px"></a>
+	  	</div>
+
+
+
+	  	<!-- ESPAÇO -->
+	  	<div style="margin:200px"></div>
+
+
+
+	  	<!-- IMG O QUE SIGNIFICA -->
+	    <img src="oquee.png" alt="o que significa Ruah" style="width:100%">	
+	    
+
+
+	    <!-- ESPAÇO -->
+	    <div style="margin:70px"></div>
+
+
+
+	    <!-- IMG POSTS DESTAQUES -->
+	    <div><img src="destaqueblog.png" alt="destaques do blog" style="width:85%"></div>
+	    
+
+
+	    <!-- ESPAÇO -->
+	    <div style="margin:45px"></div>
+
+
+
+
+	    	<!-- CARDS BLOGS -->
+
+
+	    	<!-- CARDS #1 -->
+		    <div class="w3-container">    
+		  	<div class="w3-card-4" style="width: 90%" class="menu">
+
+		  		<!-- IMG -->
+		    <img src="post_02_.png" alt="Juventude" style="width:100%">
+		    <div style="width:90%" class="w3-container w3-center" class="menu">
+		    	
+		    	<!-- Title -->
+		    	<p class="title-cards">SER JOVEM. SER IGREJA.</p>
+		    	<!-- Texto -->
+		      	<p class="txt-cards" align="justify">É importante partilhar que ser Igreja não anula o nosso ser jovem. A juventude da Igreja também sonha, canta, trabalha, erra, namora, chora...</p>
+		      <button class="button-lermais" class="button button5"><a href="posts.html">LER MAIS</a></button>
+		      <div style="margin:60px"></div>
+			    </div>
+			  </div>
+			</div>
+
+			<!-- ESPAÇO -->
+			<div style="margin:70px"></div>
+
+
+
+
+			<!-- CARDS #2 -->
+		    <div class="w3-container">	
+		  	<div class="w3-card-4" style="width:90%">
+		  			<!-- IMG -->
+		    <img src="post_01.jpg" alt="Juventude" style="width:100%">
+		    <div style="width:90%" class="w3-container w3-center">
+
+		    	<!-- Title -->
+		    	<p class="title-cards">ADORAÇÃO JOVEM</p>
+		    	<!-- Texto -->
+		      	<p class="txt-cards" align="justify">Adorar a Deus é dedicar a Ele o nosso amor, nossa reverência, nosso serviço e nossa devoção. Por meio da adoração, nosso conhecimento e nossa fidelidade...</p>
+		      <button class="button-lermais" class="button button5"><a href="posts.html">LER MAIS</a></button>
+		      <div style="margin:60px"></div>
+			    </div>
+			  </div>
+			</div>
+			
+			<!-- ESPAÇO -->
+			<div style="margin:70px"></div>
+
+
+
+
+			<!-- CARDS #3 -->
+		    <div class="w3-container">
+		    		<!-- IMG -->
+		  	<div class="w3-card-4" style="width:90%">
+		    <img src="post_03_.png" alt="Juventude" style="width:100%">
+		    <div style="width:90%" class="w3-container w3-center">
+
+		    	<!-- Title -->
+		    	<p class="title-cards">VOCAÇÕES</p>
+		    	<!-- Texto -->
+		      	<p class="txt-cards" align="justify"> As Vocações da Igreja são para todos, Deus chama a cada um de forma unica e particular. Porém é preciso se abrir, para se abrir a Vontade...</p>
+		      <button class="button-lermais" class="button button5"><a href="posts.html">LER MAIS</a></button>
+		      <div style="margin:60px"></div>
+			    </div>
+			  </div>
+			</div>
+
+			<!-- ESPAÇO -->
+			<div style="margin:70px"></div>
+
+
+
+		<a id="subirTopo">
+			^ <br> SUBIR
+		</a>
+
+		<!-- RODAPÉ TXT -->
+
+		<!-- ESPAÇO -->
+		<div  style="margin:150px"></div>
+		<!-- LOGO RODAPÉ -->
+		<img src="logo_padrão_BW.png" alt="o que significa Ruah" style="width:20%; opacity: .5">
+		<!-- ESPAÇO -->
+		<div style="margin:50px"></div>
+		<!-- TXT -->
+		<p style="font-family: sans-serif; font-size: 45px" class="oi">Grupo de Jovens - Ruah<br>© 2019</br></p>
+		
+		<!-- ESPAÇO -->
+		<div style="margin:70px"></div>
+
+
 	    </div>
-	  </div>
-	</div>
-	<div style="margin:70px"></div>
-
-	<!-- CARDS #2 -->
-	    <div class="w3-container">
-	    <p class="title-cards">ADORAÇÃO JOVEM</p>	
-	  	<div class="w3-card-4" style="width:90%">
-	    <img src="post_01.jpg" alt="Juventude" style="width:100%">
-	    <div style="width:90%" class="w3-container w3-center">
-	      <p class="txt-cards" align="justify">Adorar a Deus é dedicar a Ele o nosso amor, nossa reverência, nosso serviço e nossa devoção. Por meio da adoração, nosso conhecimento e nossa fidelidade ...</p>
-	      <button class="button-lermais" class="button button5"><a href="posts.html">LER MAIS</a></button>
-	      <div style="margin:60px"></div>
-	    </div>
-	  </div>
-	</div>
-	<div style="margin:70px"></div>
-
-	<!-- CARDS #3 -->
-	    <div class="w3-container">
-	    <p class="title-cards">VOCAÇÕES</p>	
-	  	<div class="w3-card-4" style="width:90%">
-	    <img src="post_03.jpg" alt="Juventude" style="width:100%">
-	    <div style="width:90%" class="w3-container w3-center">
-	      <p class="txt-cards" align="justify"> As Vocações da Igreja são para todos, Deus chama a cada um de forma unica e particular. Porém é preciso se abrir, para se abrir a Vontade ...</p>
-	      <button class="button-lermais" class="button button5"><a href="posts.html">LER MAIS</a></button>
-	      <div style="margin:60px"></div>
-	    </div>
-	  </div>
-	</div>
-	<div style="margin:70px"></div>
-
-	<a id="subirTopo">
-		^ <br> SUBIR
-	</a>
-
-	<!-- RODAPÉ TXT -->
-	<div style="margin:70px"></div>
-	<p style="font-family: sans-serif; font-size: 40px">Comunidade Jesus Operário<br>© 2019</br></p>
-	<div style="margin:70px"></div>
-
-    </div>
 	</body>
 </html>
